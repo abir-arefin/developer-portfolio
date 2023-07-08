@@ -1,0 +1,64 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.nav-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+nav li{
+    list-style: none;
+    display: inline;
+    padding-right: 30px;
+}
+li a{
+    text-decoration: none;
+    
+}
+li a:hover{
+    color: teal ;
+}
+.title{
+    font-size: 30px;
+}
+.header{
+    background-color: #FFF8F3;
+}
+.btn-prime{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 35px;
+    padding-left: 35px;
+    color: white;
+    background-color: #FD6E0A;
+    border: 0;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+div h2{
+    font-weight: 800;
+}
+
+.banner-greeting{
+    color: #474747;
+    font-size: 45px;
+}
+.banner-title{
+    font-size: 75px;
+    font-weight: 700px;
+}
+.banner{
+    margin: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#pro-pic{
+    width: 350px;
+}
+.banner-content{
+    max-width: 500px;
+}
